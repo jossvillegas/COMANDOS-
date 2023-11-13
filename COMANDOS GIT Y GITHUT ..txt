@@ -1,0 +1,134 @@
+UNIVERSIDAD DE LAS FUERZAS ARMADAS – ESPE
+                         CIENCIAS DE LA COMPUTACION
+DATOS INFORMATIVOS
+Apellidos y Nombres: Joselin Liseth Villegas Chicaiza 
+Fecha:	 09/11/2023			
+NRC: 13930
+Asignatura:	Programación Orientada a Objetos   	
+Docente: Ing. Jaramillo Luis
+CONCEPTOS 
+
+¿Qué es GIT?
+
+Git es un sistema de control de versiones distribuido que controla y hace un seguimiento
+ de las distintas versiones de un proyecto determinado.
+
+¿Qué es GITHUB? 
+‍GitHub es una plataforma creada para alojar el código de las aplicaciones de cualquier desarrollador 
+web y, que, como usuario, da la opción de descargarse la aplicación o acceder a su perfil para leer o
+ colaborar en el desarrollo de los diferentes proyectos.
+
+COMANDOS 
+GIT INIT
+Se utiliza para inicializar un nuevo repositorio de Git en un directorio vacío o en un directorio 
+existente del que Git no realiza un seguimiento.
+Cuando ejecuta git init, Git crea un directorio y una estructura de archivos en la ubicación actual
+ para comenzar a rastrear los cambios en el proyecto.
+
+GIT CLONE
+Se utiliza para crear una copia exacta de un repositorio Git existente en un servidor remoto y
+ descargarlo en su máquina local.
+ Al clonar el repositorio, obtienes una copia completa del historial de cambios, las ramas y los
+ archivos del proyecto.
+La sintaxis básica del comando git clone es la siguiente:
+git clone [URL del repositorio remoto]
+
+
+GIT ADD
+Se utiliza para agregar cambios a archivos específicos o a todos los archivos modificados al área 
+de preparación de Git.
+ El área de preparación es la etapa intermedia donde Git guarda los cambios que se incluirán en la 
+próxima confirmación.
+La sintaxis básica del comando git add es la siguiente:
+git add [archivo]. Añade cambios en el archivo específico al área de preparación.
+git add. Añade todos los cambios de todos los archivos modificados al área de preparación.
+
+GIT COMMIT
+La sintaxis básica del comando git commit es la siguiente:
+git commit -m "mensaje del commit"
+Se utiliza para guardar permanentemente los cambios que se agregaron previamente al área de
+ preparación en Git.
+Una confirmación representa un registro inmutable de los cambios realizados en los archivos del
+ proyecto, en un momento determinado.	
+
+GIT STATUS
+Es una herramienta útil en Git porque muestra el estado actual del repositorio en su máquina local.
+ Proporciona información sobre cambios de archivos, sucursales actuales y otra información relevante 
+sobre el estado del repositorio.
+Pasos básicos para utilizar el comando
+Rama actual.
+ Git te mostrará la rama en la que estás trabajando.
+ Por ejemplo, si estás en la rama maestra, verás algo como "En la rama maestra"archivo no rastreado.
+Cambios no preparados para validación.
+ Git le mostrará una lista de archivos que han sido modificados pero que git add no han agregado al 
+ listos para ser incluidos en el próximo commit.
+
+
+GIT LOG
+Se utiliza para mostrar el historial completo de confirmaciones realizadas en un repositorio Git. 
+Al ejecutar git log, obtendrá una lista cronológica de todas las confirmaciones realizadas, lo que 
+le permitirá ver quién realizó los cambios, cuándo se realizaron y las notificaciones relacionadas 
+por confirmación.
+Pasos básicos para utilizar el comando
+SHA: es el identificador único de cada confirmación.	
+Autor: nombre y dirección de correo electrónico del autor comprometido.
+Fecha: fecha y hora en que se realizó la autenticación.
+Mensaje: Se agregan mensajes descriptivos durante la validación, describiendo los cambios realizados.
+
+GIT PULL
+Se utiliza para descargar y fusionar cambios desde el repositorio remoto a su repositorio local.
+Esta es una combinación de dos comandos en Git: git fetch, que descarga cambios desde un repositorio 
+remoto sin aplicarlos, y git merge, que fusiona los cambios descargados en su rama actual.
+Pasos básicos para utilizar el comando
+Es importante tener en cuenta que antes de ejecutar git pull, debe asegurarse de no tener ningún 
+cambio local no confirmado que pueda entrar en conflicto con los cambios en el repositorio remoto.
+Si tiene cambios no confirmados, es mejor confirmarlos u ocultarlos temporalmente con git stash 
+antes de revisarlos.
+Es una operación común en el flujo de trabajo de Git porque le permite actualizar su repositorio 
+local con cambios desde un repositorio remoto y ayuda a colaborar con otros miembros del equipo más fácilmente.
+
+GIT PUSH
+Se utiliza para enviar confirmaciones locales desde su repositorio al repositorio remoto.
+Después de realizar cambios y comprometerse con su repositorio local, puede usar git push para
+ sincronizar sus cambios con el repositorio remoto y compartirlos con otros colaboradores.
+Pasos básicos para utilizar el comando git
+La sintaxis básica del comando git push es la siguiente:
+git push [repositorio-remoto] [rama]
+Es una operación esencial para colaborar con otros desarrolladores en un proyecto Git y para
+ mantener el repositorio remoto actualizado con los cambios realizados en tu repositorio local.
+
+GIT BRANCH
+Se utiliza en Git para mostrar una lista de todas las ramas presentes en el repositorio. 
+Una rama en Git es simplemente una línea independiente de desarrollo que permite trabajar 
+en diferentes características o versiones del proyecto sin afectar la rama principal (generalmente llamada «master» o «main»).
+
+GIT CHECKOUT
+Se utiliza para cambiar de rama o desplazarse entre distintos commits en tu 
+git checkout depende del argumento que le proporciones.
+Pasos básicos para utilizar el comando
+La sintaxis básica del comando git checkout es la siguiente:
+git checkout [rama o commit] git checkout b3a2d97
+
+GIT MERGE
+Se utiliza en Git para combinar los cambios de una rama con otra. Al fusionar dos ramas con 
+git merge, los cambios realizados en una rama se incorporan a otra rama
+Es una herramienta poderosa para combinar el trabajo realizado en diferentes ramas 
+y es fundamental para el desarrollo colaborativo en Git, permitiendo a los equipos
+ trabajar en paralelo en características y luego integrarlas en la rama principal cuando estén listas.
+
+GIT REMOTE
+Se utiliza para ver y gestionar los repositorios remotos asociados con tu repositorio local
+ en Git. Un repositorio remoto es una copia del repositorio que se encuentra en un servidor 
+externo o en la nube, y es utilizado para colaborar con otros desarrolladores y sincronizar 
+cambios entre diferentes máquinas.
+
+GIT DIFF
+Se utiliza en Git para mostrar las diferencias entre el estado actual del directorio de
+ trabajo y el último commit registrado en el repositorio. Es una herramienta muy útil para 
+revisar los cambios realizados en los archivos antes de agregarlos al área de preparación 
+(staging area) o antes de hacer un commit.
+
+LINKOGRAFIA 
+https://blog.hubspot.es/website/comandos-github
+file:///C:/Users/pc/Downloads/2332-Texto%20del%20art%C3%ADculo-11367-1-10-20220420%20(2).pdf
+ 
