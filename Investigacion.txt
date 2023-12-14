@@ -1,0 +1,35 @@
+Nombre:   Joselin Villegas
+            		NRC: 13930  
+Docente: Ing.Luis  Enrique Jaramillo Montaño	Asignatura: Programación Orientada A Objetos
+Fecha: 14/12/2023	Investigación	Calificación:
+
+1.-¿Qué es iterar?
+Un proceso de repetición que permite explorar o modificar todos los elementos de una colección o estructura de
+ datos.
+
+2.-¿Para qué sirve?
+El iterar se realiza utilizando un bucle o bucles de control, como for, while, do-while, entre otros.
+ Estos bucles permiten especificar una condición que debe cumplirse para continuar iterando.
+ Si la condición se cumple, se ejecuta el bloque de código que contiene las instrucciones para procesar
+ o modificar el elemento actual. Luego, se actualiza el puntero o índice para acceder al siguiente elemento 
+y se vuelve a evaluar la condición.
+
+3.-¿Para que me sirve un arreglo?
+Permite almacenar y manipular un conjunto de elementos.
+
+4.-¿Para que me sirve un diccionario?
+Un diccionario es una estructura de datos que permite almacenar y manipular un conjunto de pares clave-valor. 
+
+5.-¿Cuál de los dos es más rápido y Por qué?
+Los diccionarios son útiles cuando se necesita asociar un valor con una clave única y 
+Las listas son útiles cuando se necesita almacenar una colección de elementos sin asignarles claves únicas.
+
+6.-¿Cuándo debo ocupar un diccionario y cuando una lista?
+Diccionarios: Son más apropiadas cuando:
+Los elementos son clave-valor.
+Se desea acceder a un elemento por su clase 
+
+Listas: Son más apropiadas cuando:
+El orden de los elementos es importante.
+Se desea acceder a un elemento por su posición en la lista.
+Los elementos son de un mismo tipo.
