@@ -1,0 +1,40 @@
+Nombre:   Joselin Villegas
+            		NRC: 13930  
+Docente: Ing.Luis  Enrique Jaramillo Montaño	Asignatura: Programación Orientada A Objetos
+Fecha: 14/12/2023	Investigación	Calificación:
+
+
+¿Cuál es la diferencia entre un for y un foreach?
+En Java, un for es un bucle que se repite un número específico de veces.
+
+Ejemplo 
+public class Ciclo {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        int n;
+        int c=1;
+        int p;
+        System.out.println("Ingrese un numero ");
+        n = entrada.nextInt();
+        for(c=1; c< n ;c++){
+            p=2* c -2;
+            System.out.println("numero ="+p);
+            
+        }
+          
+
+Un bucle foreach es un bucle especial que se utiliza para recorrer los elementos de un array o de una colección.
+Ejemplo 2 
+Foreach 
+public class Ciclo2 {
+
+    public static void main(String[] args) {
+        String [] nombres ={"Paula","Alex","Andrea","Byron","Heidy"
+    };
+        for (String i:nombres){
+            System.out.println("Nombre: "+i);
+        }
+    
+     
+      
+}
